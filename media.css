@@ -1,0 +1,142 @@
+
+
+@media only screen and (max-width: 1439px) {
+    header{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 1103px) {
+    .amin-main-flex-page1 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .amin-page1-flex1 {
+        margin: 40px auto;
+        width: 100%;
+    }
+
+    .amin-page1-flex2 {
+        margin: 40px auto;
+        width: 100%;
+    }
+
+    .amin-main-grid-page2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}
+@media only screen and (max-width: 900px) {
+
+
+    .block {
+        height: 300px;
+    }
+    .kumush-wrapper{
+        display: block;
+        height: fit-content;
+    }
+    .kumush-link{
+        margin: 0 auto;
+    }
+    .kumush-left-side{
+        align-items: center;
+    }
+    .kumush-middle{
+        margin-top: 100px ;
+    }
+    .kumush-right-side{
+        height: fit-content;
+        align-items: center;
+    }
+    .kumush-right-side button{
+        display: none;
+    }
+}
+@media only screen and (max-width: 700px){
+.WoxHome-text{
+    font-size: 46px;
+}
+}
+@media only screen and (max-width: 680px){
+    .WoxRectangle-9{
+        margin-top: 50px;
+    }
+    .grov{
+        display: none;
+        
+    }
+
+    }
+    @media only screen and ( max-width: 667px) {
+        header{
+            height: 60px;
+    
+        }
+        
+        .left-side-khoji{
+            display: none;
+        }
+        .right-side-khoji a {
+              display: none;
+        }
+        .right-side-khoji{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .right-side-khoji .menu{
+            width: 10px;
+            height: 4px;
+            background-color: black;
+            cursor: pointer;
+        }
+    }
+@media only screen and (max-width: 660px) {
+    .amin-main-grid-page2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+    .block {
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .WoxHome-text{
+        font-size: 36px;
+    }
+    }
+@media only screen and (max-width: 425px) {
+
+    .vip-text{
+font-size: 10px;
+    }
+    .vip-3{
+        font-size: 10px;
+            }
+
+.kumush-link p a{
+    font-size: 16px;
+}
+    .block {
+        height: 450px;
+    }
+    header{
+        height: 35px;
+    }
+    .img-33 img{
+        width: 25px;
+        height: 25px;
+
+    }
+}
+
+
+
+
+
+

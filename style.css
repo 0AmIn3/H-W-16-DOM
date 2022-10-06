@@ -1,0 +1,858 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto'
+}
+
+.conteiner {
+    max-width: 1440px;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.amin-page1-logo1 {
+    text-align: center;
+    width: 100%;
+    height: 153px;
+    margin: 0 auto;
+}
+
+.amin-page1-logo1 h1 {
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 58px;
+}
+
+.amin-page1-logo1 p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 23px;
+    color: #A0A0A0;
+}
+
+.amin-link {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 26px;
+
+}
+
+.amin-link a {
+    text-decoration: none;
+    color: #1F1F1F;
+}
+
+
+.amin-main-flex-page1 {
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    padding: 0 50px;
+    margin: 80px auto;
+}
+
+.amin-page1-flex1 {
+    width: 50%;
+    height: 570px;
+    margin-right: 25px;
+}
+
+.amin-page1-img1 {
+    width: 100%;
+    height: 75%;
+    background-image: url(./img/Rectangleamin-page1-img-1.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.amin-page1-text1 {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+}
+
+.amin-page1-text1 h4 {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 48px;
+
+}
+
+.amin-page1-text1 p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 23px;
+}
+
+.amin-page1-text1 p a {
+    text-decoration: none;
+    color: #1F1F1F;
+}
+
+
+
+.amin-page1-flex2 {
+    width: 50%;
+    height: 570px;
+}
+
+.amin-page1-img2 {
+    width: 100%;
+    height: 75%;
+    background-image: url(./img/Rectangleamin-page1-img-2.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.amin-page1-text2 {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+}
+
+.amin-page1-text2 h4 {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 48px;
+
+}
+
+.amin-page1-text2 p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 23px;
+}
+
+.amin-page1-text2 p a {
+    text-decoration: none;
+    color: #1F1F1F;
+}
+
+
+
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+.amin-page1-logo2 {
+    text-align: center;
+    width: 100%;
+    height: 153px;
+    margin-top: 130px;
+}
+
+.amin-page1-logo2 h1 {
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.amin-page1-logo2 p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 16px;
+    color: #A0A0A0;
+}
+
+.amin-tochka-main {
+    display: flex;
+    margin-top: 52px;
+    justify-content: center;
+}
+
+.amin-tochka {
+    width: 7px;
+    height: 7px;
+    background-color: black;
+}
+
+.amin-tochka1 {
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    margin: 0 16px;
+}
+
+
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}}}}}} */
+
+
+
+.amin-main-grid-page2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 493px;
+    grid-gap: 25px;
+    margin: 24px auto;
+    padding: 0 63px;
+}
+
+/* .amin-grid-page2 {
+} */
+
+.amin-grid-page2:nth-child(1) .amin-page2-img1 {
+    background-image: url(./img/Rectangleamin-page2-img-1.svg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 85%;
+}
+
+.amin-grid-page2:nth-child(1) .amin-page2-text1 {
+    margin-top: 23px;
+}
+
+.amin-grid-page2:nth-child(1) .amin-page2-text1 h4 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #C3C3C3;
+}
+
+.amin-grid-page2:nth-child(1) .amin-page2-text1 p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #C3C3C3;
+}
+
+.amin-grid-page2:nth-child(2) .amin-page2-img2 {
+    background-image: url(./img/Rectangleamin-page2-img-2.svg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 85%;
+}
+
+.amin-grid-page2:nth-child(2) .amin-page2-text2 {
+    margin-top: 23px;
+
+}
+
+.amin-grid-page2:nth-child(2) .amin-page2-text2 h4 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #C3C3C3;
+}
+
+.amin-grid-page2:nth-child(2) .amin-page2-text2 p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #C3C3C3;
+}
+
+.amin-grid-page2:nth-child(3) .amin-page2-img3 {
+    background-image: url(./img/Rectangleamin-page2-img-3.svg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 85%;
+}
+
+.amin-grid-page2:nth-child(3) .amin-page2-text3 {
+    margin-top: 23px;
+
+}
+
+.amin-grid-page2:nth-child(3) .amin-page2-text3 h4 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #C3C3C3;
+}
+
+.amin-grid-page2:nth-child(3) .amin-page2-text3 p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #C3C3C3;
+}
+
+.amin-grid-page2:nth-child(4) .amin-page2-img4 {
+    background-image: url(./img/Rectangleamin-page2-img-4.svg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 85%;
+}
+
+.amin-grid-page2:nth-child(4) .amin-page2-text4 {
+    margin-top: 23px;
+
+}
+
+.amin-grid-page2:nth-child(4) .amin-page2-text4 h4 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #C3C3C3;
+}
+
+.amin-grid-page2:nth-child(4) .amin-page2-text4 p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #C3C3C3;
+}
+
+
+.amin-page1-main-box {
+    margin: 0 auto;
+}
+
+.amin-page2-main-box {
+    margin: 0 auto;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+.artem-word {
+    margin-top: 38px;
+}
+
+.artem-word h1 {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.artem-word p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px;
+    color: #A0A0A0;
+}
+
+.grid_img {
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 28px; */
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 78px auto 0 auto;
+}
+
+.block {
+    background-color: #eaeaea;
+    height: fit-content;
+    text-align: center;
+    margin: 10px auto;
+    padding: 0 0 10px;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(#9FA4C4, #B3CDD1);
+
+
+}
+
+.names {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+
+
+
+.modal {
+    display: none;
+    width: 60%;
+    height: 50%;
+    background-color: #F0F0F0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 31;
+    /* padding: 62px 86px 82px 86px; */
+    transition: 0.3s ease;
+    opacity: 0;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.img_modal {
+    width: 40%;
+    height: 100%;
+    background-image: linear-gradient(#9FA4C4, #B3CDD1);
+    border-right: 3px solid white;
+}
+
+.close_btn {
+    width: 5%;
+    height: 5%;
+    background-image: url(./img/closebtn.svg);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 3%;
+    right: 1%;
+    cursor: pointer;
+}
+.company{
+    font-size: 20px;
+    color: rgb(122, 84, 84);
+}
+.right_modal {
+    width: 60%;
+    padding: 30px;
+    background-image: linear-gradient(#9FA4C4, #B3CDD1);
+    font-size: 30px;
+}
+
+.right_modal p {
+    color: white;
+    margin-top: 10px;
+}
+
+.right_modal p span {
+    color: white;
+
+}
+
+.modal_bg {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.242);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    transition: 0.3s ease;
+    opacity: 0;
+
+}
+
+/* .artem-block:nth-child(1) {
+    background-image: url(./img/Rectangleartem-0.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(2) {
+    background-image: url(./img/Rectangleartem-1.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(3) {
+    background-image: url(./img/Rectangleartem-2.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(4) {
+    background-image: url(./img/Rectangleartem-3.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(5) {
+    background-image: url(./img/Rectangleartem-4.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(6) {
+    background-image: url(./img/Rectangleartem-5.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(7) {
+    background-image: url(./img/Rectangleartem-6.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(8) {
+    background-image: url(./img/Rectangleartem-7.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(9) {
+    background-image: url(./img/Rectangleartem-8.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(10) {
+    background-image: url(./img/Rectangleartem-9.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(11) {
+    background-image: url(./img/Rectangleartem-10.svg);
+
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(12) {
+    background-image: url(./img/Rectangleartem-11.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(13) {
+    background-image: url(./img/Rectangleartem-12.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(14) {
+    background-image: url(./img/Rectangleartem-13.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(15) {
+    background-image: url(./img/Rectangleartem-14.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(16) {
+    background-image: url(./img/Rectangleartem-15.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(17) {
+    background-image: url(./img/Rectangleartem-16.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(18) {
+    background-image: url(./img/Rectangleartem-17.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(19) {
+    background-image: url(./img/Rectangleartem-18.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(20) {
+    background-image: url(./img/Rectangleartem-19.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(21) {
+    background-image: url(./img/Rectangleartem-20.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(22) {
+    background-image: url(./img/Rectangleartem-21.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(23) {
+    background-image: url(./img/Rectangleartem-22.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.artem-block:nth-child(24) {
+    background-image: url(./img/Rectangleartem-23.svg);
+    background-position: center;
+    background-size: cover;
+} */
+
+
+
+
+.kumush-message {
+    margin-top: 124px;
+    align-items: center;
+}
+
+.kumush-message h1 {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.kumush-message p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 44px;
+}
+
+.kumush-main {
+    padding: 0 50px;
+
+}
+
+.kumush-gray {
+    color: white;
+    width: 100%;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    background-color: #9AA8B1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 121px;
+}
+
+.kumush-gray h1 {
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 58px;
+    margin-top: 24px;
+}
+
+.kumush-gray p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 23px;
+}
+
+.kumush-wrapper {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F9F9;
+}
+
+.kumush-left-side {
+    width: 200px;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.kumush-decor {
+    text-decoration: none;
+    color: black;
+    font-family: barlow;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.kumush-middle {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    gap: 10px;
+}
+
+.kumush-line {
+    width: 300px;
+    height: fit-content;
+    color: black;
+}
+
+.kumush-middle p {
+    color: #A0A0A0;
+}
+
+.kumush-right-side button {
+    width: 82px;
+    height: 82px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.kumush-right-side {
+    width: 600px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.kumush-links {
+    text-decoration: none;
+    color: #A0A0A0;
+}
+
+.kumush-link {
+    width: 220px;
+    height: 1000%;
+}
+
+.kumush-link p {
+    margin-top: 16px;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{[]}}}}}}}}}}}}}}}}}}}}}}}} */
+
+
+.WoxRectangle-8 {
+    width: 100%;
+    height: 504px;
+    background-image: url(img.Wox/Rectangle\ \(5\).png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.WoxHome-text {
+    font-size: 66px;
+    color: white;
+    padding-bottom: 14px;
+}
+
+.WoxHome-text-2 {
+    font-size: 14PX;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.Woxtext-box9 {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 110px auto;
+}
+
+.Woxbig-text {
+    font-size: 34px;
+    padding-bottom: 23px;
+}
+
+.Woxmin-text {
+    font-size: 16px;
+    color: #a0a0a0;
+    text-align: center;
+}
+
+.WoxRectangle-9 {
+    max-width: 80%;
+    height: 500px;
+    margin: -110px auto;
+    margin-bottom: 100px;
+
+    background-image: url(img.Wox/image\ 1222\ \(2\).png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{[{{{{{]}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+
+header {
+    width: 1440px;
+    height: 75px;
+    background-color: white;
+    position: fixed;
+    z-index: 29;
+    color: black;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-between;
+}
+
+.img-33 {
+    width: 40px;
+    height: 34px;
+    filter: invert(100%);
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+.vip-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.Rectangle-1 {
+    width: 100%;
+    height: 504px;
+    margin: 0px auto;
+    background-color: blueviolet;
+    margin-top: 75px;
+
+    background-image: url(img.Wox/Rectangle\ \(32\).png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Home-text-1 {
+    font-size: 43px;
+    color: white;
+    padding-bottom: 14px;
+
+
+}
+
+.Home-text-3 {
+    font-size: 15PX;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.grov-1 {
+    display: flex;
+}
