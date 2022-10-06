@@ -729,7 +729,7 @@
 .WoxRectangle-8 {
     width: 100%;
     height: 504px;
-    background-image: url(img.Wox/Rectangle\ \(5\).png);
+    background-image: url(./img/Rectangle-\(5\).png);
     background-size: cover;
     background-position: center;
     margin: 0 auto;
@@ -778,7 +778,7 @@
     margin: -110px auto;
     margin-bottom: 100px;
 
-    background-image: url(img.Wox/image\ 1222\ \(2\).png);
+    background-image: url(./img/image-1222-\(2\).png);
     background-size: cover;
     background-position: center;
 
@@ -827,7 +827,7 @@ header {
     background-color: blueviolet;
     margin-top: 75px;
 
-    background-image: url(img.Wox/Rectangle\ \(32\).png);
+    background-image: url(./img/Rectangle-\(32\).png);
     background-size: cover;
     background-position: center;
 
